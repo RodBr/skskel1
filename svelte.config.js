@@ -29,7 +29,7 @@ const config = {
 			fallback: '404.html'
 		}),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/svsk1' : ''
+			base: process.env.NODE_ENV === 'production' ? '/skskel1' : ''
 		}
 	}
 };
