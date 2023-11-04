@@ -11,15 +11,15 @@
 
 	onMount(() => {
 		console.log('onMount');
-		const successCallback = (position: any) => {
-			console.log(position);
-		};
+		// const successCallback = (position: any) => {
+		// 	console.log(position);
+		// };
 
-		const errorCallback = (error: any) => {
-			console.log(error);
-		};
+		// const errorCallback = (error: any) => {
+		// 	console.log(error);
+		// };
 
-		navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+		// navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
 
 		Notification.requestPermission().then((result) => {
 			console.log(result);
